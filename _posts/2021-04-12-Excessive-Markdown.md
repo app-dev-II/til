@@ -31,17 +31,18 @@ end
 ```
 
 ```
-  ```ruby
-  class Person
-    attr_accessor :first_name
-    attr_accessor :last_name
+\```ruby
+class Person
+  attr_accessor :first_name
+  attr_accessor :last_name
 
-    def full_name
-      return self.first_name + " " + self.last_name
-    end
+  def full_name
+    return self.first_name + " " + self.last_name
   end
-  ```
+end
+\```
 ```
+Also, it helps to escape special characters with backslashes (not _underlined_ vs. not\_underlined\_)
 
 ## Heading level 2
 The number of # determine the level of header 1=#, 2=##, etc.
