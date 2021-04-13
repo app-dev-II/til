@@ -43,6 +43,9 @@ end
 \```
 ```
 Also, it helps to escape special characters with backslashes (not _underlined_ vs. not\_underlined\_)
+```
+(not _underlined_ vs. not\_underlined\_)
+```
 
 ## Heading level 2
 The number of # determine the level of header 1=#, 2=##, etc.
