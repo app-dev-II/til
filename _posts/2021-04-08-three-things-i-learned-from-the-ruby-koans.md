@@ -59,7 +59,7 @@ This makes sense, and I am all about writing more efficient code.  What surprise
 3.0.0-p0 :010 > original_string
  => "Hello, World" 
 ```
-Since the shovel operator modifies the original variable of `hi`, it in turn will modify any variable that shares the same object id as `hi`, namely `original_string`.  Going through this same excercise using the += operator below, we see that this actually creates a new object id for `hi`, thus it does not modify the original object id, and in turn doesn't modify the `original_string`.
+Interesting, so setting `hi = original_string` actually creates another object with not only the same value, but the same _object id_ which is not what I originally would have expected.  The shovel operator not only modifies the original value of `hi`, but it also will modify any variable that shares the same _object id_ as `hi`, namely `original_string`.  Going through this same excercise using the += operator below, we see that this actually creates a new object id for `hi`, then performs the operation, thus it does not modify the original _object id_, and in turn doesn't modify the `original_string`.
 
 ```shell
 3.0.0-p0 :012 >  original_string = "Hello, "
