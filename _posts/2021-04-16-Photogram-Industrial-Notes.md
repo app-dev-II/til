@@ -12,6 +12,7 @@ title: Photogram Industrial
    - DB update default [link](https://blog.arkency.com/how-to-add-a-default-value-to-an-existing-column-in-a-rails-migration/)
    - Wrap `destroy_all` in `if Rail.env.development` statement to protect production
    - For each `has_many` decide if I need to add a `dependent: :destroy`
+   - How would we maintain the `active` tag in the tabs from bootstrap in the partial?  It got deleted when we were reformatting in Pt 5?
  - Steps in creating application
    - Create model/resources
    - Generate business logic: direct and indirect associations
