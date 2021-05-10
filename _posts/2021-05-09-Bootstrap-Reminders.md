@@ -4,6 +4,7 @@ title: Adding Bootstrap to Applications
 ---
 
 
-[https://chapters.firstdraft.com/chapters/788](First Draft Resources)
+[FirstDraft Resources](https://chapters.firstdraft.com/chapters/788)
+
 Copy bootstrap/bootswatch file to `app/assets/stylesheets/application.css`?
 
